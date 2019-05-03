@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    class Cat {
+            constructor(name, color) {
+                this.name = name
+                this.color = color
+            }
+
+            speak() {
+                console.log("Meow")//method
+            }
+        }
+        var cat1 = new Cat("Fluffy", "White");
+        var cat2 = new Cat("Spike", "Gray");
+        var cat3 = new Cat("Rover", "Purple");
+
+        console.log(cat1, cat2, cat3);
+        cat1.speak();
+    
+    </script>
+</body>
+</html>
